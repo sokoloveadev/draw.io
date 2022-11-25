@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T04:31:35.556Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.4.1" etag="TMv7wwr0sXMAP2VVrXbH" type="github"><diagram id="2E3m2hPWjuJcNzdtE5ua">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-25T09:35:51.428Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="APHAJDErS2sinJMEjbDS" version="20.4.1" type="github">
+  <diagram id="2E3m2hPWjuJcNzdtE5ua" name="Страница 1">
+    <mxGraphModel dx="2156" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-1" value="Viber Bot" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="148" y="258" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-2" value="отправка по триггеру" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="175" width="168" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-3" value="отправка в ручную" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="265.5" width="168" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-4" value="отправка кроном по условиям" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="356" width="168" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-6" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A8HJmVg4V1IWiq_-Py6p-1" target="A8HJmVg4V1IWiq_-Py6p-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="368" y="465" as="sourcePoint" />
+            <mxPoint x="418" y="415" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="354" y="198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-7" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A8HJmVg4V1IWiq_-Py6p-1" target="A8HJmVg4V1IWiq_-Py6p-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="278" y="298" as="sourcePoint" />
+            <mxPoint x="402" y="207.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-8" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A8HJmVg4V1IWiq_-Py6p-1" target="A8HJmVg4V1IWiq_-Py6p-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="288" y="308" as="sourcePoint" />
+            <mxPoint x="412" y="217.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="346" y="379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-434" y="499" width="984" height="487" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A8HJmVg4V1IWiq_-Py6p-10" target="A8HJmVg4V1IWiq_-Py6p-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-10" value="пользователь в настройках проставляем галку на активацию viber-бота" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="539" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A8HJmVg4V1IWiq_-Py6p-11" target="A8HJmVg4V1IWiq_-Py6p-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-11" value="получает ссылку (qr-код) на бота, переходит в бота" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-213" y="539" width="163" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A8HJmVg4V1IWiq_-Py6p-13" target="A8HJmVg4V1IWiq_-Py6p-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-13" value="Получаем: viber_user_id и user_id с сайта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="539" width="277" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A8HJmVg4V1IWiq_-Py6p-15" target="A8HJmVg4V1IWiq_-Py6p-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="624" />
+              <mxPoint x="-326" y="624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-15" value="сохраняем в БД связь, но подписка пока false" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="539" width="177" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A8HJmVg4V1IWiq_-Py6p-17" target="A8HJmVg4V1IWiq_-Py6p-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-17" value="пользователь жмет кнопку или пишет &quot;Подписаться&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="648" width="188" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8HJmVg4V1IWiq_-Py6p-19" value="получаем viber_user_id, по нему проставляем подписку в БД" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-153" y="648" width="197" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
