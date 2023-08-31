@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2023-08-31T10:24:10.793Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ud34JaETrIQJRmDGaBpz" version="21.6.2" type="github">
+  <diagram name="Страница 1" id="ZkauyycRIYDNYMhbfDys">
+    <mxGraphModel dx="3385" dy="1920" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WJNkJMJEps5TtWISmoD8-9" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;addNewInPayment&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;glass=0;shadow=0;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-186" y="187" width="325" height="404" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WJNkJMJEps5TtWISmoD8-1" target="WJNkJMJEps5TtWISmoD8-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WJNkJMJEps5TtWISmoD8-3" target="WJNkJMJEps5TtWISmoD8-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-3" value="user_account_payment" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-146" y="335" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WJNkJMJEps5TtWISmoD8-4" target="WJNkJMJEps5TtWISmoD8-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-4" value="user_account_transfer_invoice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-146" y="418" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-5" value="tb_expected_payments" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-146" y="501" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-1" value="purchase_payment_form" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-146" y="252" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-10" value="user_account_payment" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="483" y="352" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-11" value="user_account_statement" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="483" y="273" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-12" value="user_account_transfer_invoice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="483" y="431" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-13" value="user_account_delivery_payment" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="774" y="273" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-14" value="user_account_statement" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="273" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-15" value="tb_virtual_account" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1346" y="273" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-16" value="tb_beneficiary" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1346" y="352" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-17" value="user_account_money" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1626" y="273" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-19" value="user_account_statement" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1906" y="273" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-20" value="user_account_payment" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2182" y="273" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-21" value="user_account_transfer_invoice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2182" y="449" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-22" value="purchase_payment_form" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2182" y="361" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-23" value="tb_expected_payments" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2464" y="273" width="239" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-24" value="проверка существования выписки по ID платежа из банка&lt;br&gt;(для ...)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="486" y="213" width="237" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-25" value="получение списка инвойсов по ID посылки из выписки" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="778" y="206" width="237" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-26" value="попытка найти выписку по хешу, создание если не нашли" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1067" y="206" width="232" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-27" value="получение инфы о бенефициарах, проверка активации вирт. счетов, активации при необходимости&lt;br&gt;---&lt;br&gt;перевод денег на вирт счета в банке" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1353" y="206" width="231" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-28" value="поиск, создание ЛС кошелька пользователю" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1631" y="204" width="241" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-29" value="подтверждение платежа у нас&lt;br&gt;поиск, создание выписки" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="204" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-30" value="ищем, создаем или обновляем транзакцию у нас" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2195" y="204" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WJNkJMJEps5TtWISmoD8-31" value="что-то с модалкой ?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2479" y="204" width="219" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
