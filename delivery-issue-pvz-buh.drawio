@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net" modified="2023-10-26T04:41:25.760Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ENGtq915yLTQ-zduZ2XQ" version="21.3.4" type="github">
+  <diagram name="Страница 1" id="dpibbcfdTU0NdyB9LLBh">
+    <mxGraphModel dx="1819" dy="1083" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-1" target="uPSe-qDzZDvBjFcf7NTe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-1" target="uPSe-qDzZDvBjFcf7NTe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-1" target="uPSe-qDzZDvBjFcf7NTe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-1" value="RUN_AccountCalculateIssueByDay" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="196" y="217" width="270" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-2" target="uPSe-qDzZDvBjFcf7NTe-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1215" y="340" />
+              <mxPoint x="1215" y="380" />
+              <mxPoint x="703" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-2" value="RUN_AccountCalculatePvzLegal" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="933" y="319" width="270" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-3" target="uPSe-qDzZDvBjFcf7NTe-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="153" y="286" />
+              <mxPoint x="153" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-3" value="RUN_AccountRecalculatePvzOrganization" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-154" y="264" width="270" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-4" target="uPSe-qDzZDvBjFcf7NTe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-4" value="&lt;u&gt;/api/core/account-pvz-legal-buh/recalculate&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-134" y="189" width="241" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-5" value="воркер" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="56" width="83" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-6" value="крон" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="97" width="83" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-10" value="buh_account_pvz_legal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="588" y="407" width="231" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-11" target="uPSe-qDzZDvBjFcf7NTe-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="859" y="229" />
+              <mxPoint x="859" y="132" />
+              <mxPoint x="331" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-11" target="uPSe-qDzZDvBjFcf7NTe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-11" value="buh_account_pvz_legal_day" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="588" y="219" width="231" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-12" value="buh_account_pvz" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="588" y="162" width="231" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-13" target="uPSe-qDzZDvBjFcf7NTe-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1068" y="294" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-13" value="tb_deal_pvz" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="588" y="274" width="231" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-19" value="за вчера&lt;br&gt;по всем орзанизациям&lt;br&gt;issue/delivery" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-154" y="366" width="215" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-21" value="" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0.625;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endFill=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-3" target="uPSe-qDzZDvBjFcf7NTe-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-94" y="377" as="sourcePoint" />
+            <mxPoint x="-44" y="327" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-37" y="332" />
+              <mxPoint x="-20" y="359" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-22" target="uPSe-qDzZDvBjFcf7NTe-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="331" y="9" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-22" value="user_account_payment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="-11" width="231" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-23" target="uPSe-qDzZDvBjFcf7NTe-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="331" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-23" value="user_account_transfer_issue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="35" width="231" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-24" target="uPSe-qDzZDvBjFcf7NTe-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="331" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-24" value="user_account_transfer_delivery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="81" width="231" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-30" value="для генерации данных&lt;br&gt;в buh_account_pvz_legal" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="908" y="51" width="215" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-31" value="" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endFill=0;" edge="1" parent="1" target="uPSe-qDzZDvBjFcf7NTe-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="186" as="sourcePoint" />
+            <mxPoint x="879" y="264" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="886" y="155" />
+              <mxPoint x="892" y="124" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPSe-qDzZDvBjFcf7NTe-38" target="uPSe-qDzZDvBjFcf7NTe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uPSe-qDzZDvBjFcf7NTe-38" value="RUN_TochkaApiDeal" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="186" y="272.5" width="270" height="43" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
