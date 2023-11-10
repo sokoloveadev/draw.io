@@ -1,23 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T10:56:29.697Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7o5L6wOhNV7dwjJQ5K4f" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-10T11:31:15.136Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cI4sx4J8jm3i61bh3t0V" version="21.7.1" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="1772" dy="759" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1776" dy="1159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xc6Mat9f2Ct-LNurmztS-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// бонусные группы&lt;br&gt;&lt;b&gt;bonus_group&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- name // название для отображения(если нужно)&lt;br&gt;- alias // алиас для выборок, поиска&lt;br&gt;- percent_to_pay // процент к оплате настоящими деньгами&lt;br&gt;- state (created, await_&lt;span style=&quot;background-color: initial;&quot;&gt;publication,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;published, expired, rejected&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;) // статус&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- type (many,one) // тип группы (для многих пользователей, личная для 1 пользователя)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-46" y="361" width="518" height="141" as="geometry" />
+        <mxCell id="xc6Mat9f2Ct-LNurmztS-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// бонусные группы&lt;br&gt;&lt;b&gt;bonus_group&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- id&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- name // название для отображения(если нужно)&lt;br&gt;- alias // алиас для выборок, поиска&lt;br&gt;- percent_to_pay // процент к оплате настоящими деньгами&lt;br&gt;- state (created, await_&lt;span style=&quot;background-color: initial;&quot;&gt;publication,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;published, expired, rejected&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;) // статус&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- type (many,one) // тип группы (для многих пользователей, личная для 1 пользователя)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-46" y="815" width="518" height="141" as="geometry" />
         </mxCell>
-        <mxCell id="xc6Mat9f2Ct-LNurmztS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xc6Mat9f2Ct-LNurmztS-3" target="xc6Mat9f2Ct-LNurmztS-1">
+        <mxCell id="xc6Mat9f2Ct-LNurmztS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xc6Mat9f2Ct-LNurmztS-3" target="xc6Mat9f2Ct-LNurmztS-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xc6Mat9f2Ct-LNurmztS-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;// связь пользователя с бонусной группой&lt;br&gt;&lt;b&gt;bonus_group_member&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- group_id (linked) // связанная группа&lt;br&gt;- user_id // ID пользователя&lt;br&gt;- status (in group, removed) // статус (в группе, удален, ...)&lt;br&gt;- last_update_user_id // ID последнего пользователя, кто обновил&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="529" y="361" width="382" height="141" as="geometry" />
+        <mxCell id="xc6Mat9f2Ct-LNurmztS-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;// связь пользователя с бонусной группой&lt;br&gt;&lt;b&gt;bonus_group_member&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- group_id (linked) // связанная группа&lt;br&gt;- user_id // ID пользователя&lt;br&gt;- status (in group, removed) // статус (в группе, удален, ...)&lt;br&gt;- last_update_user_id // ID последнего пользователя, кто обновил&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="529" y="815" width="382" height="141" as="geometry" />
         </mxCell>
-        <mxCell id="xc6Mat9f2Ct-LNurmztS-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;// таблица бонусов пользователя&lt;br&gt;&lt;b&gt;user_account_bonus&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id&lt;br&gt;- user_id // ID пользователя&lt;br&gt;- amount // сумма&lt;br&gt;- added_at // дата добавления&lt;br&gt;- expired_on // дата истечения&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="691" y="598" width="241" height="152" as="geometry" />
+        <mxCell id="xc6Mat9f2Ct-LNurmztS-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;// таблица бонусов пользователя&lt;br&gt;&lt;b&gt;user_account_bonus&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id&lt;br&gt;- user_id // ID пользователя&lt;br&gt;- amount // сумма&lt;br&gt;- added_at // дата добавления&lt;br&gt;- expired_on // дата истечения&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="691" y="1052" width="241" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="xc6Mat9f2Ct-LNurmztS-7" value="bonus_history" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="239" y="615" width="120" height="60" as="geometry" />
+        <mxCell id="xc6Mat9f2Ct-LNurmztS-7" value="bonus_history" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="239" y="1069" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-309" y="-116" width="853" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-2" value="1) Создание группы пользователей" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="-309" y="-146" width="223" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KoCSp43wU_QVSIyziLk_-3" target="KoCSp43wU_QVSIyziLk_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-3" value="аналитик&lt;br&gt;пишет запрос на странице&lt;br&gt;https://dev.63pokupki.ru/stat#/&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-272" y="-72" width="181" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KoCSp43wU_QVSIyziLk_-4" target="KoCSp43wU_QVSIyziLk_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-4" value="аналитик&lt;br&gt;создает группу пользователей по условиям" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-51" y="-69" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KoCSp43wU_QVSIyziLk_-6" target="KoCSp43wU_QVSIyziLk_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-6" value="у группы пользователей чек-бокс &quot;для рассылок&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-69" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-8" value="при активации чекбокса в админке бонусов появляется эта группа с указанным названием" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="291" y="-69" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-309" y="103" width="860" height="201" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-11" value="2) В админке бонусов создание бонусной акции" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="-309" y="73" width="286" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KoCSp43wU_QVSIyziLk_-13" target="KoCSp43wU_QVSIyziLk_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-13" value="админ&lt;br&gt;выбирает группу&lt;br&gt;для которой будет бонусная акция" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-272" y="183" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="KoCSp43wU_QVSIyziLk_-8" target="KoCSp43wU_QVSIyziLk_-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="584" y="-39" />
+              <mxPoint x="584" y="61" />
+              <mxPoint x="-361" y="61" />
+              <mxPoint x="-361" y="213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoCSp43wU_QVSIyziLk_-15" value="админ&lt;br&gt;создает бонусную акцию, назначает&lt;br&gt;- внутреннее название&lt;br&gt;- устанавливает % от стоимости покупки Y (Y = X/%)&lt;br&gt;- устанавливает количество бонусов в акции&lt;br&gt;- устанавливает срок действия акции (бонусов)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-113" y="142" width="236" height="142" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
