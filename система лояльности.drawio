@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T08:05:40.392Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="r64dRdKg_AzL9FBTtwIN" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T08:05:53.166Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="dKx84FJDz4DCBNaEz7lI" version="22.1.0" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="3087" dy="1665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2629" dy="1412" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -257,7 +257,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2sTFHwStN_Ppy0xsJh8--7" value="// связь пользователей с бонусной акцией&lt;br&gt;&lt;b&gt;bonus_action_user&lt;/b&gt;&lt;br&gt;- bonus_action_id // ID бонусной акции&lt;br&gt;- user_id // ID пользователя&lt;br&gt;- activated_at // дата активации&lt;br&gt;- amount* (если для разных пользователей будут разные суммы по одной и той же акции)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
-          <mxGeometry x="800" y="568" width="368" height="144" as="geometry" />
+          <mxGeometry x="800" y="568" width="517" height="115" as="geometry" />
         </mxCell>
         <mxCell id="2sTFHwStN_Ppy0xsJh8--9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeWidth=1;startArrow=none;startFill=0;endFill=1;strokeColor=#333333;" parent="1" source="KoCSp43wU_QVSIyziLk_-33" target="2sTFHwStN_Ppy0xsJh8--7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
