@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T08:09:46.352Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="bo-m4CZm0PJ8xDS7zETb" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T08:11:12.486Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="R5VgvYfwRbvG6nceq-FA" version="22.1.0" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="2414" dy="1293" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6173" dy="2930" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,10 +17,10 @@
           <mxGeometry x="2184" y="-305.5" width="382" height="141" as="geometry" />
         </mxCell>
         <mxCell id="xc6Mat9f2Ct-LNurmztS-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;// таблица бонусов пользователя&lt;br&gt;&lt;b&gt;user_account_bonus&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id&lt;br&gt;- user_id // ID пользователя&lt;br&gt;- amount // сумма&lt;br&gt;- added_at // дата добавления&lt;br&gt;- expired_on // дата истечения&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1824" y="148" width="241" height="152" as="geometry" />
+          <mxGeometry x="-1216" y="962" width="241" height="152" as="geometry" />
         </mxCell>
         <mxCell id="xc6Mat9f2Ct-LNurmztS-7" value="bonus_history" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1766" y="1" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1216" y="873" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KoCSp43wU_QVSIyziLk_-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-309" y="-116" width="853" height="144" as="geometry" />
@@ -239,10 +239,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2sTFHwStN_Ppy0xsJh8--1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;уменьшить nCost или увеличить nDiscount&lt;br&gt;InvoiceS.ixCostByListInvoiceFixOrderStatus&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;InvoiceS.ixCostByListInvoiceAllOrderStatus&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=2;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1802" y="544" width="291" height="78" as="geometry" />
+          <mxGeometry x="-838.5" y="890" width="313" height="78" as="geometry" />
         </mxCell>
         <mxCell id="2sTFHwStN_Ppy0xsJh8--2" value="Добавить уменьшение стоимости инвойса от бонусов" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1802" y="514" width="346" height="30" as="geometry" />
+          <mxGeometry x="-838.5" y="860" width="315" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sTFHwStN_Ppy0xsJh8--5" value="// бонусные акции&lt;br&gt;&lt;b&gt;bonus_action&lt;/b&gt;&lt;br&gt;- id&lt;br&gt;- name // внутреннее название&lt;br&gt;- status // статус бонусной акции (ждет подтверждения, ждет публикации, опубликована, завершена, отклонена)&lt;br&gt;- *alias // алиас для выборок, поиска (*мб не нужен)&lt;br&gt;- percent // процент от стоимости, который можно потратить&lt;br&gt;- amount // сумма&lt;br&gt;- date_start // дата начала&lt;br&gt;- date_stop // дата окончания акции&lt;br&gt;- validity* // сроке действия бонусов после активации (*мб не нужен, (date_start - date_stop))&lt;br&gt;- mail_tpl_id // ID шаблона для email рассылки" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
           <mxGeometry x="800" y="56" width="526" height="204" as="geometry" />
