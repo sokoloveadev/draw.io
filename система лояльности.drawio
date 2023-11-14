@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T08:06:07.960Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="KMNx3kUHj94s2w2hVYwI" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T08:07:29.444Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="d2yhIloMRF2UCN9mLQiM" version="22.1.0" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="2629" dy="1412" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2172" dy="1159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,10 +17,10 @@
           <mxGeometry x="1661" y="-305.5" width="382" height="141" as="geometry" />
         </mxCell>
         <mxCell id="xc6Mat9f2Ct-LNurmztS-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;// таблица бонусов пользователя&lt;br&gt;&lt;b&gt;user_account_bonus&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id&lt;br&gt;- user_id // ID пользователя&lt;br&gt;- amount // сумма&lt;br&gt;- added_at // дата добавления&lt;br&gt;- expired_on // дата истечения&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2382" y="74" width="241" height="152" as="geometry" />
+          <mxGeometry x="1693" y="148" width="241" height="152" as="geometry" />
         </mxCell>
         <mxCell id="xc6Mat9f2Ct-LNurmztS-7" value="bonus_history" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2382" y="-9" width="120" height="60" as="geometry" />
+          <mxGeometry x="1635" y="1" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KoCSp43wU_QVSIyziLk_-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-309" y="-116" width="853" height="144" as="geometry" />
