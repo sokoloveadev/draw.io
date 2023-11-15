@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T09:38:40.229Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pKD4LDV_l095pdfZivHN" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T09:40:06.210Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yvFLoBFWqIplAG3zm84J" version="22.1.1" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="2747" dy="1029" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3034" dy="1186" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -277,10 +277,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7KZYroZAJhQZ_11wdrX--7" value="// таблица всех транзакций с бонусами (поступления/оплаты/сгорания)&lt;br&gt;&lt;b&gt;user_account_bonus_payment&lt;/b&gt;&lt;br&gt;- id&lt;br&gt;- user_id&lt;br&gt;- invoice_id (возможно не нужно, что если потом не только за инвойсы можно будет платить, или сразу за несколько)&lt;br&gt;- bonus_action_user_id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
-          <mxGeometry x="797" y="877" width="666" height="183" as="geometry" />
+          <mxGeometry x="797" y="877" width="666" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="7KZYroZAJhQZ_11wdrX--9" value="тут будет 1 транзакция с общей суммой или несколько отдельных из разных бонусов" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="800" y="840" width="318" height="39" as="geometry" />
+        <mxCell id="7KZYroZAJhQZ_11wdrX--9" value="тут будет 1 транзакция с общей суммой или несколько отдельных из разных бонусов?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="840" width="287" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
