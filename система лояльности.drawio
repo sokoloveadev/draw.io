@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T12:27:31.409Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="c7jGqihGsJn7IXl_garC" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T12:28:12.571Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="tATTojFyAI1XBy6GZ4hX" version="22.1.1" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="3109" dy="1227" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3649" dy="1523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="2572" y="-176" width="382" height="141" as="geometry" />
         </mxCell>
         <mxCell id="xc6Mat9f2Ct-LNurmztS-6" value="&lt;div style=&quot;&quot;&gt;// таблица бонусов пользователя&lt;br&gt;&lt;b&gt;user_account_bonus&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- id&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- user_id // ID пользователя&lt;br&gt;- amount // сумма&lt;br&gt;- added_at // дата добавления&lt;br&gt;- expired_on // дата истечения&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="934" width="206" height="145" as="geometry" />
+          <mxGeometry x="1220" y="680" width="206" height="145" as="geometry" />
         </mxCell>
         <mxCell id="xc6Mat9f2Ct-LNurmztS-7" value="bonus_history" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1352" y="857" width="120" height="60" as="geometry" />
@@ -250,19 +250,19 @@
         <mxCell id="7KZYroZAJhQZ_11wdrX--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="2sTFHwStN_Ppy0xsJh8--7" target="2sTFHwStN_Ppy0xsJh8--5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1816" y="606" />
+              <mxPoint x="1816" y="382" />
               <mxPoint x="1816" y="76" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2sTFHwStN_Ppy0xsJh8--7" value="// связь пользователей с бонусной акцией&lt;br&gt;&lt;b&gt;bonus_action_user&lt;/b&gt;&lt;br&gt;- bonus_action_id // ID бонусной акции&lt;br&gt;- user_id // ID пользователя&lt;br&gt;- activated_at // дата активации&lt;br&gt;- amount* (если для разных пользователей будут разные суммы по одной и той же акции)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="577" width="517" height="115" as="geometry" />
+          <mxGeometry x="1220" y="353" width="517" height="115" as="geometry" />
         </mxCell>
         <mxCell id="7KZYroZAJhQZ_11wdrX--7" value="// таблица всех транзакций с бонусами (поступления/оплаты/сгорания)&lt;br&gt;&lt;b&gt;user_account_bonus_payment&lt;/b&gt;&lt;br&gt;- id&lt;br&gt;- user_id&lt;br&gt;- invoice_id (возможно не нужно, что если потом не только за инвойсы можно будет платить, или сразу за несколько)&lt;br&gt;- bonus_action_user_id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="760" width="666" height="117" as="geometry" />
+          <mxGeometry x="1220" y="530" width="666" height="117" as="geometry" />
         </mxCell>
         <mxCell id="7KZYroZAJhQZ_11wdrX--9" value="тут будет 1 транзакция с общей суммой или несколько отдельных из разных бонусов?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="723" width="287" height="39" as="geometry" />
+          <mxGeometry x="1220" y="493" width="287" height="39" as="geometry" />
         </mxCell>
         <mxCell id="vK75ueOWJMMfP0GUL7ji-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#525252;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="vK75ueOWJMMfP0GUL7ji-3" target="2sTFHwStN_Ppy0xsJh8--5">
           <mxGeometry relative="1" as="geometry" />
