@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T04:02:34.637Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="o0_RNdqW0JbMFTNaq6Xc" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T04:04:22.815Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_aCEKYnLdv2IBSO-9_AN" version="22.1.2" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="2698" dy="1407" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3214" dy="1693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,7 +144,7 @@
           <mxGeometry x="-84" y="691" width="166" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SRhxIpcrjBoFyI4u7-Of-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-309" y="852" width="680" height="124" as="geometry" />
+          <mxGeometry x="-309" y="852" width="489" height="124" as="geometry" />
         </mxCell>
         <mxCell id="SRhxIpcrjBoFyI4u7-Of-4" value="5) Оплата бонусами" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-309" y="822" width="229" height="30" as="geometry" />
@@ -171,24 +171,19 @@
         <mxCell id="SRhxIpcrjBoFyI4u7-Of-9" value="6) Зачисление реальных денег организатору" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-309" y="1026" width="264" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SRhxIpcrjBoFyI4u7-Of-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SRhxIpcrjBoFyI4u7-Of-10" target="SRhxIpcrjBoFyI4u7-Of-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="SRhxIpcrjBoFyI4u7-Of-10" value="в отчете организатора&lt;br&gt;отображается транзакция, считается общая оплаченная сумма за заказ с учетом бонусов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-80" y="883" width="221" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SRhxIpcrjBoFyI4u7-Of-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="SRhxIpcrjBoFyI4u7-Of-12" target="SRhxIpcrjBoFyI4u7-Of-14" edge="1">
+        <mxCell id="SRhxIpcrjBoFyI4u7-Of-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="SRhxIpcrjBoFyI4u7-Of-10" target="SRhxIpcrjBoFyI4u7-Of-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="400" y="913" />
-              <mxPoint x="400" y="1015" />
+              <mxPoint x="215" y="913" />
+              <mxPoint x="215" y="1015" />
               <mxPoint x="-335" y="1015" />
               <mxPoint x="-335" y="1117" />
             </Array>
+            <mxPoint x="339.99999999999955" y="913" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="SRhxIpcrjBoFyI4u7-Of-12" value="закупка принимает оплату&lt;br&gt;бонусы списываются со счета пользователя" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="178" y="883" width="162" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SRhxIpcrjBoFyI4u7-Of-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SRhxIpcrjBoFyI4u7-Of-14" target="SRhxIpcrjBoFyI4u7-Of-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
