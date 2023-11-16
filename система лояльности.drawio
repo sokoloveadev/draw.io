@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T05:43:30.264Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-uUVAFZP921iM3P2X5Oe" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T07:56:58.137Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DbQEaE9f57QbE_bJJXBH" version="22.1.2" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="2317" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3034" dy="1186" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -230,14 +230,14 @@
         <mxCell id="2sTFHwStN_Ppy0xsJh8--2" value="Добавить уменьшение стоимости инвойса от бонусов" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1352" y="647" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2sTFHwStN_Ppy0xsJh8--5" value="// бонусные акции&lt;br&gt;&lt;b&gt;bonus_action&lt;/b&gt;&lt;br&gt;- id&lt;br&gt;- name // внутреннее название&lt;br&gt;- status // статус бонусной акции (ждет подтверждения, ждет публикации, опубликована, завершена, отклонена)&lt;br&gt;- *alias // алиас для выборок, поиска (*мб не нужен)&lt;br&gt;- percent // процент от стоимости, который можно потратить&lt;br&gt;- amount // сумма&lt;br&gt;- date_start // дата начала&lt;br&gt;- date_stop // дата окончания акции&lt;br&gt;- validity* // сроке действия бонусов после активации (*мб не нужен, (date_start - date_stop))&lt;br&gt;- mail_tpl_id // ID шаблона для email рассылки" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="25" width="526" height="204" as="geometry" />
+        <mxCell id="2sTFHwStN_Ppy0xsJh8--5" value="// бонусные акции&lt;br&gt;&lt;b&gt;bonus_action&lt;/b&gt;&lt;br&gt;- id&lt;br&gt;- uuid // для ссылки&lt;br&gt;- name // внутреннее название&lt;br&gt;- status // статус бонусной акции (ждет подтверждения, ждет публикации, опубликована, завершена, отклонена)&lt;br&gt;- *alias // алиас для выборок, поиска (*мб не нужен)&lt;br&gt;- percent // процент от стоимости, который можно потратить&lt;br&gt;- amount // сумма&lt;br&gt;- date_start // дата начала&lt;br&gt;- date_stop // дата окончания акции&lt;br&gt;- validity* // сроке действия бонусов после активации (*мб не нужен, (date_start - date_stop))&lt;br&gt;- mail_tpl_id // ID шаблона для email рассылки" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="25" width="526" height="214" as="geometry" />
         </mxCell>
         <mxCell id="7KZYroZAJhQZ_11wdrX--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="2sTFHwStN_Ppy0xsJh8--7" target="2sTFHwStN_Ppy0xsJh8--5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1816" y="382" />
-              <mxPoint x="1816" y="76" />
+              <mxPoint x="1816" y="79" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -286,10 +286,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;идемпотентность методов оплаты&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="uOTMXuVcHqonhurmIahR-1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;идемпотентность методов оплаты&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1352" y="564" width="144" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeWidth=1;startArrow=none;startFill=0;endFill=1;strokeColor=#525252;" edge="1" parent="1" source="SRhxIpcrjBoFyI4u7-Of-6" target="uOTMXuVcHqonhurmIahR-4">
+        <mxCell id="uOTMXuVcHqonhurmIahR-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeWidth=1;startArrow=none;startFill=0;endFill=1;strokeColor=#525252;" parent="1" source="SRhxIpcrjBoFyI4u7-Of-6" target="uOTMXuVcHqonhurmIahR-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-99" y="840" as="sourcePoint" />
             <mxPoint x="619" y="857" as="targetPoint" />
@@ -298,7 +298,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeColor=#525252;" edge="1" parent="1" source="uOTMXuVcHqonhurmIahR-4" target="xc6Mat9f2Ct-LNurmztS-6">
+        <mxCell id="uOTMXuVcHqonhurmIahR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeColor=#525252;" parent="1" source="uOTMXuVcHqonhurmIahR-4" target="xc6Mat9f2Ct-LNurmztS-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1139" y="937" />
@@ -306,16 +306,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-4" value="POST &lt;i&gt;api/core/cart-payment/pay-from-bonus&lt;/i&gt;&lt;br&gt;&lt;br&gt;{&lt;br&gt;&amp;nbsp; amount: number // сумма бонусов для оплаты&lt;br&gt;&amp;nbsp; invoice_id: number // ID инвойса за который платят&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=2;" vertex="1" parent="1">
+        <mxCell id="uOTMXuVcHqonhurmIahR-4" value="POST &lt;i&gt;api/core/cart-payment/pay-from-bonus&lt;/i&gt;&lt;br&gt;&lt;br&gt;{&lt;br&gt;&amp;nbsp; amount: number // сумма бонусов для оплаты&lt;br&gt;&amp;nbsp; invoice_id: number // ID инвойса за который платят&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=2;" parent="1" vertex="1">
           <mxGeometry x="800" y="869" width="297" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-5" value="что с оплатой посылки?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="uOTMXuVcHqonhurmIahR-5" value="что с оплатой посылки?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="800" y="839" width="149" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-8" value="крон рассчета&lt;br&gt;нужной суммы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uOTMXuVcHqonhurmIahR-8" value="крон рассчета&lt;br&gt;нужной суммы" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-657" y="1067" width="116" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-10" value="" style="curved=1;endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeWidth=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#525252;" edge="1" parent="1" source="uOTMXuVcHqonhurmIahR-8" target="SRhxIpcrjBoFyI4u7-Of-14">
+        <mxCell id="uOTMXuVcHqonhurmIahR-10" value="" style="curved=1;endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeWidth=1;startArrow=classic;startFill=1;endFill=0;strokeColor=#525252;" parent="1" source="uOTMXuVcHqonhurmIahR-8" target="SRhxIpcrjBoFyI4u7-Of-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-628" y="1079" as="sourcePoint" />
             <mxPoint x="-377" y="1077" as="targetPoint" />
@@ -324,10 +324,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-13" value="Есть крон RUN_CalcAllPaymentsFromAcc&lt;br&gt;считает сумму оплат с ЛС по организациям за день&lt;br&gt;&lt;br&gt;доработать его?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="uOTMXuVcHqonhurmIahR-13" value="Есть крон RUN_CalcAllPaymentsFromAcc&lt;br&gt;считает сумму оплат с ЛС по организациям за день&lt;br&gt;&lt;br&gt;доработать его?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-875" y="1183" width="309" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-20" value="Транзакции&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- зачисление (+)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- оплата (-)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- возврат (+)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- сгорание (-)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="1">
+        <mxCell id="uOTMXuVcHqonhurmIahR-20" value="Транзакции&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- зачисление (+)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- оплата (-)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- возврат (+)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- сгорание (-)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
           <mxGeometry x="1957" y="541" width="134" height="95" as="geometry" />
         </mxCell>
       </root>
