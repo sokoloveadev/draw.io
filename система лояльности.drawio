@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T04:19:11.536Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="A80FkzxWOEO8W2fb9zx_" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T04:19:21.092Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QvIKA05EincszFaKkz3F" version="22.1.2" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
     <mxGraphModel dx="3214" dy="1693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -308,7 +308,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uOTMXuVcHqonhurmIahR-4" value="POST &lt;i&gt;api/core/cart-payment/pay-from-bonus&lt;/i&gt;&lt;br&gt;&lt;br&gt;{&lt;br&gt;&amp;nbsp; amount: number // сумма бонусов для оплаты&lt;br&gt;&amp;nbsp; invoice_id: number // ID инвойса за который платят&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="800" y="869" width="328" height="88" as="geometry" />
+          <mxGeometry x="800" y="869" width="307" height="103" as="geometry" />
         </mxCell>
         <mxCell id="uOTMXuVcHqonhurmIahR-5" value="что с оплатой посылки?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="839" width="149" height="30" as="geometry" />
