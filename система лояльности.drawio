@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T07:56:58.137Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DbQEaE9f57QbE_bJJXBH" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T08:05:15.011Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ej-m52unMDtk01Y7EI9L" version="22.1.2" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="3034" dy="1186" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3649" dy="1523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -230,7 +230,7 @@
         <mxCell id="2sTFHwStN_Ppy0xsJh8--2" value="Добавить уменьшение стоимости инвойса от бонусов" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1352" y="647" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2sTFHwStN_Ppy0xsJh8--5" value="// бонусные акции&lt;br&gt;&lt;b&gt;bonus_action&lt;/b&gt;&lt;br&gt;- id&lt;br&gt;- uuid // для ссылки&lt;br&gt;- name // внутреннее название&lt;br&gt;- status // статус бонусной акции (ждет подтверждения, ждет публикации, опубликована, завершена, отклонена)&lt;br&gt;- *alias // алиас для выборок, поиска (*мб не нужен)&lt;br&gt;- percent // процент от стоимости, который можно потратить&lt;br&gt;- amount // сумма&lt;br&gt;- date_start // дата начала&lt;br&gt;- date_stop // дата окончания акции&lt;br&gt;- validity* // сроке действия бонусов после активации (*мб не нужен, (date_start - date_stop))&lt;br&gt;- mail_tpl_id // ID шаблона для email рассылки" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
+        <mxCell id="2sTFHwStN_Ppy0xsJh8--5" value="// бонусные акции&lt;br&gt;&lt;b&gt;bonus_action&lt;/b&gt;&lt;br&gt;- id&lt;br&gt;- uuid // для ссылки&lt;br&gt;- name // внутреннее название&lt;br&gt;- status // статус бонусной акции (ждет подтверждения, ждет публикации, опубликована, завершена, отклонена)&lt;br&gt;- *alias // алиас для выборок, поиска (*мб не нужен)&lt;br&gt;- percent // процент от стоимости, который можно потратить&lt;br&gt;- amount // сумма&lt;br&gt;- date_start // дата начала&lt;br&gt;- date_stop // дата окончания акции&lt;br&gt;- *validity // сроке действия бонусов после активации (*мб не нужен, (date_start - date_stop))&lt;br&gt;- mail_tpl_id // ID шаблона для email рассылки" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
           <mxGeometry x="1220" y="25" width="526" height="214" as="geometry" />
         </mxCell>
         <mxCell id="7KZYroZAJhQZ_11wdrX--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="2sTFHwStN_Ppy0xsJh8--7" target="2sTFHwStN_Ppy0xsJh8--5" edge="1">
@@ -241,7 +241,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2sTFHwStN_Ppy0xsJh8--7" value="// связь пользователей с бонусной акцией&lt;br&gt;&lt;b&gt;bonus_action_user&lt;/b&gt;&lt;br&gt;- bonus_action_id // ID бонусной акции&lt;br&gt;- user_id // ID пользователя&lt;br&gt;- activated_at // дата активации&lt;br&gt;- amount* (если для разных пользователей будут разные суммы по одной и той же акции)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
+        <mxCell id="2sTFHwStN_Ppy0xsJh8--7" value="// связь пользователей с бонусной акцией&lt;br&gt;&lt;b&gt;bonus_action_user&lt;/b&gt;&lt;br&gt;- bonus_action_id // ID бонусной акции&lt;br&gt;- user_id // ID пользователя&lt;br&gt;- activated_at // дата активации&lt;br&gt;- *amount (если для разных пользователей будут разные суммы по одной и той же акции)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
           <mxGeometry x="1220" y="353" width="517" height="115" as="geometry" />
         </mxCell>
         <mxCell id="7KZYroZAJhQZ_11wdrX--7" value="// таблица всех транзакций с бонусами (поступления/оплаты/сгорания)&lt;br&gt;&lt;b&gt;bonus_account_payment&lt;/b&gt;&lt;br&gt;- id&lt;br&gt;- user_id&lt;br&gt;- invoice_id (возможно не нужно, что если потом не только за инвойсы можно будет платить, или сразу за несколько)&lt;br&gt;- bonus_action_user_id" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" parent="1" vertex="1">
