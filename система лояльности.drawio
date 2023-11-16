@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T04:19:21.092Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QvIKA05EincszFaKkz3F" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T04:22:17.806Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="D9rdgxtMkMxR85V644A1" version="22.1.2" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="3214" dy="1693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6173" dy="3330" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry x="1220" y="680" width="206" height="145" as="geometry" />
         </mxCell>
         <mxCell id="xc6Mat9f2Ct-LNurmztS-7" value="bonus_history" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1352" y="857" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1352" y="816" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KoCSp43wU_QVSIyziLk_-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-309" y="-116" width="853" height="144" as="geometry" />
@@ -312,6 +312,9 @@
         </mxCell>
         <mxCell id="uOTMXuVcHqonhurmIahR-5" value="что с оплатой посылки?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="839" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uOTMXuVcHqonhurmIahR-7" value="Транзакции&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- зачисление (+)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- оплата (-)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- возврат (+)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- сгорание (-)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="-1352" y="532" width="134" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
