@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T05:09:44.815Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yVyWZqPmRmeoU22LkO_J" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T05:10:05.177Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9_wkESa3PCBeSZ-LpggT" version="22.1.2" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="5697" dy="2646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2966" dy="1149" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -286,7 +286,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-1" value="идемпотентность!" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="uOTMXuVcHqonhurmIahR-1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;идемпотентность методов оплаты&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1352" y="528" width="144" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uOTMXuVcHqonhurmIahR-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeWidth=1;startArrow=none;startFill=0;endFill=1;strokeColor=#525252;" edge="1" parent="1" source="SRhxIpcrjBoFyI4u7-Of-6" target="uOTMXuVcHqonhurmIahR-4">
