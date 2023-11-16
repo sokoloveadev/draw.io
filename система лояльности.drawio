@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T04:41:08.871Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gnxmvtxXChoKe8WbuThF" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T04:41:50.334Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-Q0ehLn9MzAdXV95iZEd" version="22.1.2" type="github">
   <diagram name="Страница — 1" id="X_pbbqrgJV0iN55l-i-a">
-    <mxGraphModel dx="3887" dy="2065" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2458" dy="1274" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -328,8 +328,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uOTMXuVcHqonhurmIahR-13" value="Есть крон RUN_CalcAllPaymentsFromAcc&lt;br&gt;считает сумму оплат с ЛС по организациям за день" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-875" y="1183" width="309" height="37" as="geometry" />
+        <mxCell id="uOTMXuVcHqonhurmIahR-13" value="Есть крон RUN_CalcAllPaymentsFromAcc&lt;br&gt;считает сумму оплат с ЛС по организациям за день&lt;br&gt;&lt;br&gt;доработать его?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-875" y="1183" width="309" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
